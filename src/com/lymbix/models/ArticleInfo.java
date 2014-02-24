@@ -41,4 +41,7 @@ public class ArticleInfo {
 	
 	@SerializedName("sentences_data")
 	public SentenceData[] SentenceData;
+	
+	// average difference between average emotions and this tweet's emotions
+	public double avgDiff;
 }
